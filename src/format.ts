@@ -43,6 +43,6 @@ async function formatAllJsonFiles() {
     });
 
     fs.writeFileSync(outFilePath, minifiedJson, "utf-8");
-    console.log(`✅ Saved minified JSON to: ${outFilePath}`);
+    console.log(`✅ Saved JSON to: ${outFilePath}`);
   }
 }
