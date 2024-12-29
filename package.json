@@ -1,0 +1,19 @@
+{
+  "name": "prettier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "format": "ts-node src/format.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/prettier": "^2.7.3",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
